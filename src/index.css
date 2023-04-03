@@ -18,4 +18,10 @@ html {
   .container {
     @apply px-2 md:px-5 mx-auto;
   }
+  .btn {
+    @apply px-4 xl:px-6 flex items-center gap-2 py-2 lg:py-0.5 bg-[#31505D] rounded-[100px]  text-xs xl:text-base 2xl:text-base font-semibold text-[#F3F3F3];
+  }
+  .btn_primary {
+    @apply px-4 xl:px-6 py-2 lg:py-0.5 xl:text-base bg-[#0EAAEC] rounded-[100px]  text-xs 2xl:text-base font-semibold text-[#F3F3F3];
+  }
 }

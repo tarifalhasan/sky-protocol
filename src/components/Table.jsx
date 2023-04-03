@@ -4,7 +4,7 @@ const Table = () => {
   return (
     <>
       {/* ====== Table Section Start */}
-      <section className="bg-[#212126] pb-10 rounded-sm lg:rounded-[20px] ">
+      <section className="bg-[#D9D9D9]  bg-opacity-[0.15] pb-10 rounded-sm lg:rounded-[20px] ">
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full ">

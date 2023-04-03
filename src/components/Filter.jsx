@@ -2,47 +2,33 @@ import React from 'react';
 
 const Filter = () => {
   return (
-    <div className="flex flex-col space-y-6 lg:space-y-0 2xl:flex-row  justify-between items-center">
+    <div className="flex flex-col space-y-6 lg:space-y-0 lg:flex-row  justify-between items-center">
       <div className="flex space-y-5 lg:space-y-0 flex-col lg:flex-row  justify-center  gap-4 items-center">
         <h2 className="text-xs lg:text-base font-normal text-[#F3F3F3]">
           TVL Rankings
         </h2>
         <div>
-          <ul className="flex  flex-wrap lg:flex-nowrap items-center justify-center gap-y-5 gap-x-4">
+          <ul className="flex  flex-wrap lg:flex-nowrap items-center justify-center gap-y-5 gap-2 2xl:gap-x-4">
             <li>
-              <button className="px-6 py-2 lg:py-0.5 bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-base font-semibold text-[#F3F3F3]">
-                All
-              </button>
+              <button className="btn_primary">All</button>
             </li>
             <li>
-              <button className="px-6 py-2 lg:py-0.5 bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-base font-semibold text-[#F3F3F3]">
-                Ethereum
-              </button>
+              <button className="btn_primary">Ethereum</button>
             </li>
             <li>
-              <button className="px-6 py-2 lg:py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-base font-semibold text-[#F3F3F3]">
-                Tron
-              </button>
+              <button className="btn_primary">Tron</button>
             </li>
             <li>
-              <button className="px-6 py-2 lg:py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-base font-semibold text-[#F3F3F3]">
-                BSC
-              </button>
+              <button className="btn_primary">BSC</button>
             </li>
             <li>
-              <button className="px-6 py-2 lg:py-0.5 bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-base font-semibold text-[#F3F3F3]">
-                Arbitrum
-              </button>
+              <button className="btn_primary">Arbitrum</button>
             </li>
             <li>
-              <button className="px-6 py-2 lg:py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-base font-semibold text-[#F3F3F3]">
-                Polygon
-              </button>
+              <button className="btn_primary">Polygon</button>
             </li>
             <li>
-              <button className="px-6  py-2 lg:py-0.5 bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-base font-semibold text-[#F3F3F3]">
-                Optimism
-              </button>
+              <button className="btn_primary">Optimism</button>
             </li>
           </ul>
         </div>
@@ -50,7 +36,7 @@ const Filter = () => {
       <div>
         <ul className="flex items-center gap-4">
           <li>
-            <button className="px-6 flex items-center gap-2 py-2 lg:py-0.5 bg-[#31505D] rounded-[100px]  text-xs lg:text-base font-semibold text-[#F3F3F3]">
+            <button className="btn">
               Chains
               <svg
                 width="16"
@@ -67,7 +53,7 @@ const Filter = () => {
             </button>
           </li>
           <li>
-            <button className="px-6 flex items-center gap-2 py-2 lg:py-0.5 bg-[#31505D] rounded-[100px]  text-xs lg:text-base font-semibold text-[#F3F3F3]">
+            <button className="btn">
               TVL Range
               <svg
                 width="16"
