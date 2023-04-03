@@ -9,37 +9,37 @@ const Filter = () => {
         </h2>
         <ul className="flex  flex-wrap items-center gap-4">
           <li>
-            <button className="px-6 py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
+            <button className="px-6 py-1 lg:py-0.5 bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
               All
             </button>
           </li>
           <li>
-            <button className="px-6 py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
+            <button className="px-6 py-1 lg:py-0.5 bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
               Ethereum
             </button>
           </li>
           <li>
-            <button className="px-6 py-0.5   bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
+            <button className="px-6 py-1 lg:py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
               Tron
             </button>
           </li>
           <li>
-            <button className="px-6 py-0.5   bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
+            <button className="px-6 py-1 lg:py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
               BSC
             </button>
           </li>
           <li>
-            <button className="px-6 py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
+            <button className="px-6 py-1 lg:py-0.5 bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
               Arbitrum
             </button>
           </li>
           <li>
-            <button className="px-6 py-0.5   bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
+            <button className="px-6 py-1 lg:py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
               Polygon
             </button>
           </li>
           <li>
-            <button className="px-6  py-0.5  bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
+            <button className="px-6  py-1 lg:py-0.5 bg-[#0EAAEC] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
               Optimism
             </button>
           </li>
@@ -48,7 +48,7 @@ const Filter = () => {
       <div>
         <ul className="flex items-center gap-4">
           <li>
-            <button className="px-6 flex items-center gap-2 py-0.5  bg-[#31505D] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
+            <button className="px-6 flex items-center gap-2 py-1 lg:py-0.5 bg-[#31505D] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
               Chains
               <svg
                 width="16"
@@ -65,7 +65,7 @@ const Filter = () => {
             </button>
           </li>
           <li>
-            <button className="px-6 flex items-center gap-2 py-0.5  bg-[#31505D] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
+            <button className="px-6 flex items-center gap-2 py-1 lg:py-0.5 bg-[#31505D] rounded-[100px]  text-xs lg:text-lg font-semibold text-[#F3F3F3]">
               TVL Range
               <svg
                 width="16"
