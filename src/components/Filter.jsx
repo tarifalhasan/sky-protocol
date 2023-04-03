@@ -2,7 +2,7 @@ import React from 'react';
 
 const Filter = () => {
   return (
-    <div className="flex flex-col space-y-6 2xl:flex-row  justify-between items-center">
+    <div className="flex flex-col space-y-6 lg:space-y-0 2xl:flex-row  justify-between items-center">
       <div className="flex space-y-5 lg:space-y-0 flex-col lg:flex-row  justify-center  gap-4 items-center">
         <h2 className="text-xs lg:text-base font-normal text-[#F3F3F3]">
           TVL Rankings
