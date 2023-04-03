@@ -10,12 +10,12 @@ html {
   body {
     background: linear-gradient(90deg, #000000 0%, #02124b 100%);
     font-family: 'Montserrat', sans-serif;
-    @apply bg-no-repeat h-full;
+    @apply bg-no-repeat h-full overflow-x-hidden;
   }
 }
 
 @layer components {
   .container {
-    @apply px-2 mx-auto;
+    @apply px-2 md:px-5 mx-auto;
   }
 }
