@@ -17,7 +17,7 @@ const SearchBar = () => {
           />
         </svg>
         <input
-          className="bg-[#3D3F48] text-[#A7A7A7] focus:outline-none"
+          className="bg-[#3D3F48] w-full text-[#A7A7A7] focus:outline-none"
           type="text"
           placeholder="Search for a token to filter by"
           onChange={e => setSearchValue(e.target.value)}
